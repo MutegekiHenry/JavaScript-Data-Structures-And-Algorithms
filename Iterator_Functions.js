@@ -37,3 +37,19 @@ console.log(evens);
 const odds = nums.filter(isOdd);
 console.log("Odd numbers");
 console.log(odds);
+
+//Determining the passing grades of a student when you are given the marks to determine whether they have passed
+//or failed depending on the data set
+
+const passing = _num => _num >= 60;
+
+let grades_ = [];
+for (let i = 0; i < 20; ++i) {
+  grades_[i] = Math.floor(Math.random() * 101);
+}
+
+let passGrades = grades_.filter(passing);
+console.log("All grades");
+console.log(grades_);
+console.log("Passing grades");
+console.log(passGrades);
