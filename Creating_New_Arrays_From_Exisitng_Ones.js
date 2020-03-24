@@ -14,4 +14,11 @@ const combineDepts = dept2 + dept1;
 //It starts from a position that has been passed as an argument and ignores the values that
 //are before it.
 const spl = dept2.splice(1);
-console.log(spl);
+// console.log(spl);
+
+const nums = [1, 2, 3, 4, 5, 6];
+let newNums = [9, 7, 8];
+
+nums.splice(3, 0, newNums);
+
+console.log(nums);
