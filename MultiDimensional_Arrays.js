@@ -43,8 +43,8 @@ const grades__ = [
   [32, 78, 78, 66, 56]
 ];
 
-const total = 0;
-const avg = 0.0;
+let total = 0;
+let avg = 0.0;
 
 for (let row = 0; row < grades__.length; ++row) {
   for (let col = 0; col < grades__[row].length; ++col) {
