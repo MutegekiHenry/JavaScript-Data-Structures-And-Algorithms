@@ -22,3 +22,7 @@ for (let row = 0; row < grades__.length; ++row) {
   total = 0;
   avg = 0;
 }
+
+//Notice that the first student has only two grades, while the second student has three grades
+//and the third one has forur grades. SDince the program computes length hof the row in the inner loop,
+//this jaggedness does not cause any problem
