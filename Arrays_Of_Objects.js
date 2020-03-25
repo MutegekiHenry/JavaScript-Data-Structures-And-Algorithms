@@ -1,7 +1,7 @@
-const Point = (x, y) => {
+function Point(x, y) {
   this.x = x;
   this.y = y;
-};
+}
 
 let displayPts = arr => {
   for (let i = 0; i < arr.length; ++i) {
