@@ -13,7 +13,7 @@ function add(temp) {
 
 function average() {
   let total = 0;
-  for (let i = 0; i < dataStore.length; ++i) {
+  for (let i = 0; i < this.dataStore.length; ++i) {
     total += this.dataStore[i];
   }
   return total / this.dataStore.length;
@@ -29,4 +29,4 @@ thisWeek.add(45);
 thisWeek.add(25);
 thisWeek.add(43);
 
-console.log(thisWeek.average);
+console.log(thisWeek.average().toFixed(3));
