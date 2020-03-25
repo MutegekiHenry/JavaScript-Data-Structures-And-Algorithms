@@ -21,3 +21,12 @@ for (let i = 0; i < points.length; ++i) {
     "Point " + parseInt(i + 1) + " : " + points[i].x + ", " + points[i].y
   );
 }
+
+let p5 = new Point(12, -3);
+
+points.push(p5);
+console.log("After push ");
+displayPts(points);
+points.shift();
+console.log("After shift");
+displayPts(points);
